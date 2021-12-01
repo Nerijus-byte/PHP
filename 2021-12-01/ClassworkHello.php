@@ -1,4 +1,5 @@
 <?php
 
 $hello = 'hello';
-echo "\"$hello[0]\", \"$hello[1]\", \"$hello[4]\"";
+$splitToArr = str_split('hello');
+echo "\"$splitToArr[0]\", \"$splitToArr[1]\", \"$splitToArr[4]\"";
