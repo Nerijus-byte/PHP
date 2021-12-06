@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+</head>
+<body>
+    <h1>Registracija į kursus</h1>
+    <form action="forms.php" method="post">
+        <label for="fname">Vardas:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Pavarde:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="lname">Miestas:</label>
+        <select name="cities" id="cities">
+            <option value="Vilnius">Vilnius</option>
+            <option value="Kaunas">Kaunas</option>
+            <option value="Klaipeda">Klaipeda</option>
+        </select><br>
+    <h3>Programavimo kalba:</h3>
+        <input type="checkbox" id="C++" name="C++" value="C++">
+        <label for="C++"> C++</label><br>
+        <input type="checkbox" id="PHP" name="PHP" value="PHP">
+        <label for="PHP">PHP</label><br>
+        <input type="checkbox" id="Python" name="Python" value="Python">
+        <label for="Python">Python</label><br>
+    <h4>Papildoma informacija:</h4>
+        <label for="w3review"></label>
+        <textarea id="w3review" name="w3review" rows="4" cols="50">Pvz. moki Python</textarea><br>
+        <input type="submit" value="Siusti">
+    </form>
+</body>
+</html>
